@@ -12,7 +12,7 @@ app.get("/health",(req,res)=>{
 })
 
 app.get("/",async (req,res) =>{
-    res.status(200).json({message: "Hello Akash from AWS EC2 Instance v2🧑‍💻"});
+    res.status(200).json({message: "Hello Akash from AWS EC2 Instance v3🧑‍💻"});
 })
 
 app.listen(port,()=>{
