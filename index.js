@@ -12,7 +12,7 @@ app.get("/health",(req,res)=>{
 })
 
 app.get("/",async (req,res) =>{
-    res.status(200).json({message: "Hello from level 5!"});
+    res.status(200).json({message: "Hello Akash from AWS EC2 Instance 🧑‍💻"});
 })
 
 app.listen(8000,()=>{
